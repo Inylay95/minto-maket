@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body{
+    margin :0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    background:  #ffffff;
+    color: #ac9ebb;
+    font-weight: normal;
+}
+.container{
+    max-width: 1200px;
+}
+hr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-top: 8px solid #a292b3;}
+
+header{
+ margin: 33px 0 37px;  
+
+}
+.menu{
+    border:0;
+    background: #ffffff;
+    padding: 15px 0;
+}
+.navbar-brand{
+
+
+}
+.navbar-brand img{
+    position: relative;
+    top:-20px;
+    
+}
+.navbar-default .navbar-text{
+color:#ac9ebb;
+margin: 0;
+padding: 0;
+font-size: 39px;
+padding-right: 200px;
+text-transform: uppercase;
+}
+.nav>li>a>img{
+    padding: 10px;
+}
+.navbar-default .navbar-nav>li>a {
+    color:#818181;
+    text-transform: capitalize;
+}
+.navbar-default .navbar-nav>li.active-link>a{
+    border-bottom: 1px solid #ac9ebb;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    border-bottom: 1px solid #ac9ebb;   
+}
+.jumbotron{
+    background-image: url(../images/icon__banner.png);
+    background-repeat: no-repeat;
+    height: 484px;
+    background-size: cover;
+    align-items: center;
+    border-radius:
+}
+.container .jumbotron, .container-fluid .jumbotron {
+    border-radius: 0px;
+}
+.jumbotron-text{
+    text-align: center;
+    top:165px;
+}
+.text{
+    text-align: center;
+}
