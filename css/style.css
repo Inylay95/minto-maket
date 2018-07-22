@@ -5,13 +5,14 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size: 19px;
     background:  #ffffff;
-    color: #ac9ebb;
+
     font-weight: normal;
 }
+
 .container{
     max-width: 1200px;
 }
-hr {
+.header-line{
     margin: 0;
     padding: 0;
     border: 0;
@@ -56,21 +57,32 @@ text-transform: uppercase;
 .navbar-default .navbar-nav>li>a:hover{
     border-bottom: 1px solid #ac9ebb;   
 }
-.jumbotron{
-    background-image: url(../images/icon__banner.png);
-    background-repeat: no-repeat;
-    height: 484px;
-    background-size: cover;
-    align-items: center;
-    border-radius:
-}
-.container .jumbotron, .container-fluid .jumbotron {
-    border-radius: 0px;
-}
-.jumbotron-text{
+.carousel-text{
+    font-size: 117px;
     text-align: center;
     top:165px;
 }
-.text{
-    text-align: center;
+.carousel-postcaption{
+    font-size: 31px;
+}
+.pick-post{
+    color: #82699d;
+    font-weight: 600;
+
+}
+.lorem{
+    font-style: italic;
+    font-size: 23px;
+}
+.media-heading{
+    font-size: 31px;
+    color: #505051;
+    font-weight: 600;
+}
+.my-object{
+    margin-right:45px;
+}
+.col-6{
+    max-width: 640px;
+    text-align: left;
 }

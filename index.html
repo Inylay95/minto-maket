@@ -9,62 +9,108 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <!--[if lt IE 9]>
- <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script >
- <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
- <![endif]-->
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
 <body>
-    <hr>
-    <header>
-        <nav class="navbar navbar-default menu">
-            <div class="container">
-                <!-- Brand и toggle сгруппированы для лучшего отображения на мобильных дисплеях -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+<hr class="header-line">
+<header>
+
+    <nav class="navbar navbar-default menu">
+        <div class="container">
+            <!-- Brand и toggle сгруппированы для лучшего отображения на мобильных дисплеях -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1"
                         aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#"><img src="images/icon__logo.png"></a>
-                    <span class="navbar-text">minto</span>
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="images/icon__logo.png"></a>
+                <span class="navbar-text">minto</span>
+            </div>
+
+            <!-- Соберите навигационные ссылки, формы, и другой контент для переключения -->
+            <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active-link">
+                        <a href="#"><img src="images/icon__home.png">
+                            <span class="menu_link">home</span></a>
+                    </li>
+                    <li><a href="#"><img src="images/icon__aboutus.png">
+                        <span class="menu_link">about us</span></a></li>
+                    <li><a href="#"><img src="images/icon__services.png">
+                        <span class="menu_link">services</span></a></li>
+                    <li><a href="#"><img src="images/icon__contactus.png">
+                        <span class="menu_link">contact us</span></a></li>
+                </ul>
+            </div>
+
+    </nav>
+</header>
+<div class="content">
+    <div class="container">
+        <div class="container text-center">
+            <div class="carousel-caption">
+                <h3 class="carousel-text">Minto</h3>
+                <p class="carousel-postcaption">A minimal Web Design from cssauthor.com</p>
+            </div>
+            <div id="carousel" class="carousel slide" data-ride="carousel" style="display: inline-block;">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="images/icon__banner.png" alt="...">
+                    </div>
+
+                </div>
+                <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Предыдущий</span>
+                </a>
+                <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Следующий</span>
+                </a>
+            </div>
+            <hr>
+            <div class="lorem">
+            <p class="post-text"><span class="pick-post">Lorem ipsum dolor sit amet,</span> consectetur adipisicing elit, sed do eiusmod
+            tempor <br>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <br>exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <hr>
+            </div>
+            <div class="media">
+                <div class="media-left media-middle">
+                    <a href="#">
+                        <img class="media-object my-object" src='images/icon__media__nohover.png' alt="...">
+                    </a>
                 </div>
 
-                <!-- Соберите навигационные ссылки, формы, и другой контент для переключения -->
-                <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li class="active-link">
-                            <a href="#"><img src="images/icon__home.png">
-                                <span class="menu_link">home</span></a>
-                        </li>
-                        <li><a href="#"><img src="images/icon__aboutus.png">
-                            <span class="menu_link">about us</span></a></li>
-                        <li><a href="#"><img src="images/icon__services.png">
-                            <span class="menu_link">services</span></a></li>
-                        <li><a href="#"><img src="images/icon__contactus.png">
-                            <span class="menu_link">contact us</span></a></li>
-                    </ul> 
+                <div class="media-body">
+                    <div class="col-6">
+                    <h4 class="media-heading">Lorem ipsum dolor sit amet</h4>
+
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                        laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
+                        beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+                        odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+                        sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                        voluptatem.
+
+                    </div>
                 </div>
-                <!-- /.navbar-collapse -->
             </div>
-            <!-- /.container-->
-        </nav>
-    </header>
-    <div class="content">
-        <div class="container">
-            <div class="jumbotron">
-                <h1 class="jumbotron-text">Minto</h1>
-                <h2 class="text">A minimal Web Design  from cssauthor.com</h2>
-            
-                          </div>
         </div>
     </div>
-
+</div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
